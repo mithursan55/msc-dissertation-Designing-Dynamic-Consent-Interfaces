@@ -1,0 +1,26 @@
+make sure to seed data categories and updating env variables before running the server
+
+install deps:
+
+cd backend
+>npm install
+
+cd ..
+>cd frontend
+>npm install
+
+update .env contents
+
+run server:
+
+>cd ..
+>cd backend
+seed the data categories
+>node .\scripts\seedDataCategories.js
+>npm run dev
+
+
+run client:
+
+>cd frontend
+>npm run dev
